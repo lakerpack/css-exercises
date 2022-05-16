@@ -4,3 +4,12 @@
 .class.special {
     font-size: 20px;
 }
+ #one{
+     font-size: 32px;
+     color: blue;
+ }
+ #another{
+     background-color: lightgreen;
+     font-weight: bold;
+     font-size: 20px;
+ }
