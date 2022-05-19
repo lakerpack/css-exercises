@@ -3,7 +3,6 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 10px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
@@ -33,14 +32,13 @@ input {
 ul {
   list-style-type: none;
   display: flex;
-  margin: 0px;
+  margin: 12px;
   padding: 0px;
-  gap: 10px;
+  gap: 15px;
 }
 
 a{
   text-decoration: none; 
-  padding: 10px;
   color: black;
 }
 
