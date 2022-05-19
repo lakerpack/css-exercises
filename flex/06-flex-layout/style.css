@@ -6,7 +6,8 @@ body {
   padding: 10px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -32,8 +33,9 @@ input {
 ul {
   list-style-type: none;
   display: flex;
-  margin: 5px;
+  margin: 0px;
   padding: 0px;
+  gap: 10px;
 }
 
 a{
@@ -54,6 +56,10 @@ a{
 }
 
 .content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  flex: 1 5 0;
 }
