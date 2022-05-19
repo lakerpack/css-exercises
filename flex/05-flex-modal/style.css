@@ -25,14 +25,6 @@ body {
   gap: 12px;
 }
 
-.first{
-  flex-direction: column;
-}
-
-.second{
-  flex-direction: row;
-}
-
 .second .top{
   font-size: 20px;
   font-weight: bold;
