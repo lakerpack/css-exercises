@@ -20,9 +20,31 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  gap: 12px;
 }
 
-.icon {
+.first{
+  flex-direction: column;
+}
+
+.second{
+  flex-direction: row;
+}
+
+.second .top{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second div{
+  padding-bottom: 8px;
+}
+
+.icon{
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -43,7 +65,7 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
